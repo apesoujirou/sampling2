@@ -30,7 +30,12 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "m4vsQVfNP8Lu"
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 185
+        },
+        "id": "m4vsQVfNP8Lu",
+        "outputId": "b803cd83-01f0-4070-b638-ede45419b59a"
       },
       "source": [
         "# -*- coding:utf-8 -*-\n",
@@ -203,8 +208,34 @@
         "            down_data, down_fs\n",
         "        )"
       ],
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "usage: convert samplingrate\n",
+            "sr_converter.py: error: the following arguments are required: output_dir\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "SystemExit",
+          "evalue": "ignored",
+          "traceback": [
+            "An exception has occurred, use %tb to see the full traceback.\n",
+            "\u001b[0;31mSystemExit\u001b[0m\u001b[0;31m:\u001b[0m 2\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py:2890: UserWarning: To exit: use 'exit', 'quit', or Ctrl-D.\n",
+            "  warn(\"To exit: use 'exit', 'quit', or Ctrl-D.\", stacklevel=1)\n"
+          ]
+        }
+      ]
     }
   ]
 }
